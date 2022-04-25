@@ -12,6 +12,22 @@ class User {
         this.dateCreated = new Date();
         this.lastUpdated = new Date();
     }
+
+    get getUserName(){
+        return this.userName;
+    }
+
+    get getBio(){
+        return this.bio
+    }
+
+    get getdateCreated(){
+        return this.dateCreated;
+    }
+
+    get getLastUpdated(){
+        return this.lastUpdated;
+    }
 }
 
 
