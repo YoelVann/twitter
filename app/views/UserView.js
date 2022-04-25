@@ -1,6 +1,6 @@
 const User = require('../models/User');
 
-class UserService {
+class UserView {
   
     static createUser(payload){
        
@@ -22,4 +22,4 @@ class UserService {
     }
 }
 
-module.exports = UserService;
+module.exports = UserView;
