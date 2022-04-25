@@ -3,16 +3,14 @@ class User {
         id,
         userName,
         name,
-        bio,
-        dateCreated,
-        lastUpdated
+        bio
     ){
         this.id = id;
         this.userName = userName;
         this.name = name;
         this.bio = bio;
-        this.dateCreated = dateCreated;
-        this.lastUpdated = lastUpdated;
+        this.dateCreated = new Date();
+        this.lastUpdated = new Date();
     }
 }
 
