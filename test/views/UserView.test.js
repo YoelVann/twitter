@@ -10,7 +10,7 @@ describe("Test for UserView class", () => {
         expect(result.error).toMatch(/payload no existe/);
     });
     
-    test('Return an error object when try to create a new user with a payload missing properties', () => {
+    test('Return an error object when try to create a new user with a payload with invalid properties', () => {
         
         const payload = {userName: null, name: 12, id: "id"};
         const result = UserView.createUser(payload);
